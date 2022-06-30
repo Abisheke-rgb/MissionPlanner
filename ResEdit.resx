@@ -211,7 +211,7 @@
     <value>298, 459</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>274, 21</value>
+    <value>274, 23</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -317,11 +317,11 @@ NOTE, the autoload only works after Michael has added it to the planner. otherwi
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
-  </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>868, 484</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat, 8.249999pt</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Language Editor</value>

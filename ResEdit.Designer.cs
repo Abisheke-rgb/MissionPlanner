@@ -117,7 +117,6 @@
             // Form1
             // 
             resources.ApplyResources(this, "$this");
-            
             this.Controls.Add(this.BUT_clipboard);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.richTextBox1);
