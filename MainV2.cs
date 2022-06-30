@@ -4668,11 +4668,11 @@ namespace MissionPlanner
         {
             try
             {
-                System.Diagnostics.Process.Start("https://ardupilot.org/?utm_source=Menu&utm_campaign=MP");
+                System.Diagnostics.Process.Start("https://airosspace.com/");
             }
             catch
             {
-                CustomMessageBox.Show("Failed to open url https://ardupilot.org");
+                CustomMessageBox.Show("Failed to open url https://airosspace.com/");
             }
         }
 
