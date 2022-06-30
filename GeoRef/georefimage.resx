@@ -125,7 +125,7 @@
     <value>12, 12</value>
   </data>
   <data name="TXT_logfile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 20</value>
+    <value>434, 21</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="TXT_logfile.TabIndex" type="System.Int32, mscorlib">
@@ -147,7 +147,7 @@
     <value>12, 47</value>
   </data>
   <data name="TXT_jpgdir.Size" type="System.Drawing.Size, System.Drawing">
-    <value>434, 20</value>
+    <value>434, 21</value>
   </data>
   <data name="TXT_jpgdir.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -168,7 +168,7 @@
     <value>115, 21</value>
   </data>
   <data name="TXT_offsetseconds.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>100, 21</value>
   </data>
   <data name="TXT_offsetseconds.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -229,7 +229,7 @@
     <value>31, 24</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>78, 13</value>
+    <value>92, 15</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -469,7 +469,7 @@
     <value>87, 90</value>
   </data>
   <data name="RDIO_TimeOffset.Size" type="System.Drawing.Size, System.Drawing">
-    <value>77, 17</value>
+    <value>90, 19</value>
   </data>
   <data name="RDIO_TimeOffset.TabIndex" type="System.Int32, mscorlib">
     <value>30</value>
@@ -499,7 +499,7 @@
     <value>261, 90</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
+    <value>107, 19</value>
   </data>
   <data name="RDIO_CAMMsgSynchro.TabIndex" type="System.Int32, mscorlib">
     <value>31</value>
@@ -550,7 +550,7 @@
     <value>258, 9</value>
   </data>
   <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 13</value>
+    <value>57, 15</value>
   </data>
   <data name="label9.TabIndex" type="System.Int32, mscorlib">
     <value>39</value>
@@ -574,7 +574,7 @@
     <value>261, 25</value>
   </data>
   <data name="num_camerarotation.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>42, 21</value>
   </data>
   <data name="num_camerarotation.TabIndex" type="System.Int32, mscorlib">
     <value>38</value>
@@ -601,7 +601,7 @@
     <value>311, 9</value>
   </data>
   <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>51, 13</value>
+    <value>59, 15</value>
   </data>
   <data name="label8.TabIndex" type="System.Int32, mscorlib">
     <value>37</value>
@@ -631,7 +631,7 @@
     <value>202, 10</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 13</value>
+    <value>44, 15</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>36</value>
@@ -655,7 +655,7 @@
     <value>314, 25</value>
   </data>
   <data name="num_hfov.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>42, 21</value>
   </data>
   <data name="num_hfov.TabIndex" type="System.Int32, mscorlib">
     <value>35</value>
@@ -676,7 +676,7 @@
     <value>205, 26</value>
   </data>
   <data name="num_vfov.Size" type="System.Drawing.Size, System.Drawing">
-    <value>42, 20</value>
+    <value>42, 21</value>
   </data>
   <data name="num_vfov.TabIndex" type="System.Int32, mscorlib">
     <value>34</value>
@@ -703,7 +703,7 @@
     <value>31, 48</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 13</value>
+    <value>117, 15</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -727,7 +727,7 @@
     <value>34, 64</value>
   </data>
   <data name="num_dropend.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
+    <value>53, 21</value>
   </data>
   <data name="num_dropend.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -754,7 +754,7 @@
     <value>31, 10</value>
   </data>
   <data name="lbldrpstart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>96, 13</value>
+    <value>122, 15</value>
   </data>
   <data name="lbldrpstart.TabIndex" type="System.Int32, mscorlib">
     <value>45</value>
@@ -778,7 +778,7 @@
     <value>34, 25</value>
   </data>
   <data name="num_dropfromstart.Size" type="System.Drawing.Size, System.Drawing">
-    <value>53, 20</value>
+    <value>53, 21</value>
   </data>
   <data name="num_dropfromstart.TabIndex" type="System.Int32, mscorlib">
     <value>44</value>
@@ -805,7 +805,7 @@
     <value>442, 63</value>
   </data>
   <data name="chk_usegps2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>76, 17</value>
+    <value>80, 19</value>
   </data>
   <data name="chk_usegps2.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -832,7 +832,7 @@
     <value>266, 63</value>
   </data>
   <data name="label28.Size" type="System.Drawing.Size, System.Drawing">
-    <value>64, 13</value>
+    <value>76, 15</value>
   </data>
   <data name="label28.TabIndex" type="System.Int32, mscorlib">
     <value>41</value>
@@ -859,7 +859,7 @@
     <value>336, 61</value>
   </data>
   <data name="txt_basealt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 20</value>
+    <value>100, 21</value>
   </data>
   <data name="txt_basealt.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -886,7 +886,7 @@
     <value>149, 63</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 17</value>
+    <value>104, 19</value>
   </data>
   <data name="CHECK_AMSLAlt_Use.TabIndex" type="System.Int32, mscorlib">
     <value>40</value>
@@ -927,6 +927,18 @@
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
+  <data name="TXT_shutterLag.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 19</value>
+  </data>
+  <data name="TXT_shutterLag.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 21</value>
+  </data>
+  <data name="TXT_shutterLag.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="TXT_shutterLag.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;TXT_shutterLag.Name" xml:space="preserve">
     <value>TXT_shutterLag</value>
   </data>
@@ -938,6 +950,24 @@
   </data>
   <data name="&gt;&gt;TXT_shutterLag.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 22</value>
+  </data>
+  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 15</value>
+  </data>
+  <data name="label27.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label27.Text" xml:space="preserve">
+    <value>Shutter lag (ms)</value>
   </data>
   <data name="&gt;&gt;label27.Name" xml:space="preserve">
     <value>label27</value>
@@ -972,60 +1002,6 @@
   <data name="&gt;&gt;PANEL_SHUTTER_LAG.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="TXT_shutterLag.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 19</value>
-  </data>
-  <data name="TXT_shutterLag.Size" type="System.Drawing.Size, System.Drawing">
-    <value>68, 20</value>
-  </data>
-  <data name="TXT_shutterLag.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="TXT_shutterLag.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;TXT_shutterLag.Name" xml:space="preserve">
-    <value>TXT_shutterLag</value>
-  </data>
-  <data name="&gt;&gt;TXT_shutterLag.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TXT_shutterLag.Parent" xml:space="preserve">
-    <value>PANEL_SHUTTER_LAG</value>
-  </data>
-  <data name="&gt;&gt;TXT_shutterLag.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="label27.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="label27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="label27.Location" type="System.Drawing.Point, System.Drawing">
-    <value>40, 22</value>
-  </data>
-  <data name="label27.Size" type="System.Drawing.Size, System.Drawing">
-    <value>80, 13</value>
-  </data>
-  <data name="label27.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="label27.Text" xml:space="preserve">
-    <value>Shutter lag (ms)</value>
-  </data>
-  <data name="&gt;&gt;label27.Name" xml:space="preserve">
-    <value>label27</value>
-  </data>
-  <data name="&gt;&gt;label27.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;label27.Parent" xml:space="preserve">
-    <value>PANEL_SHUTTER_LAG</value>
-  </data>
-  <data name="&gt;&gt;label27.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="chk_cammsg.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
@@ -1033,7 +1009,7 @@
     <value>87, 108</value>
   </data>
   <data name="chk_cammsg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 17</value>
+    <value>139, 19</value>
   </data>
   <data name="chk_cammsg.TabIndex" type="System.Int32, mscorlib">
     <value>42</value>
@@ -1063,7 +1039,7 @@
     <value>487, 90</value>
   </data>
   <data name="RDIO_trigmsg.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 17</value>
+    <value>123, 19</value>
   </data>
   <data name="RDIO_trigmsg.TabIndex" type="System.Int32, mscorlib">
     <value>43</value>
@@ -1144,7 +1120,7 @@
     <value>261, 108</value>
   </data>
   <data name="chk_camusegpsalt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 17</value>
+    <value>91, 19</value>
   </data>
   <data name="chk_camusegpsalt.TabIndex" type="System.Int32, mscorlib">
     <value>46</value>
@@ -1174,7 +1150,7 @@
     <value>487, 108</value>
   </data>
   <data name="chk_trigusergpsalt.Size" type="System.Drawing.Size, System.Drawing">
-    <value>82, 17</value>
+    <value>91, 19</value>
   </data>
   <data name="chk_trigusergpsalt.TabIndex" type="System.Int32, mscorlib">
     <value>47</value>
@@ -1202,6 +1178,9 @@
   </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1085, 595</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Montserrat SemiBold, 8.249999pt, style=Bold</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Geo Ref Images</value>

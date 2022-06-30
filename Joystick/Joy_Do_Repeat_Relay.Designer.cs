@@ -44,7 +44,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 13);
+            this.label1.Size = new System.Drawing.Size(65, 15);
             this.label1.TabIndex = 3;
             this.label1.Text = "Relay No#";
             // 
@@ -57,7 +57,7 @@
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(57, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(57, 21);
             this.numericUpDown1.TabIndex = 2;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
@@ -66,7 +66,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(139, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.Size = new System.Drawing.Size(60, 15);
             this.label2.TabIndex = 5;
             this.label2.Text = "Repeat #";
             // 
@@ -74,7 +74,7 @@
             // 
             this.numericUpDown2.Location = new System.Drawing.Point(197, 7);
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(57, 20);
+            this.numericUpDown2.Size = new System.Drawing.Size(57, 21);
             this.numericUpDown2.TabIndex = 4;
             this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
@@ -83,7 +83,7 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(260, 9);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(30, 13);
+            this.label3.Size = new System.Drawing.Size(35, 15);
             this.label3.TabIndex = 7;
             this.label3.Text = "Time";
             // 
@@ -91,14 +91,12 @@
             // 
             this.numericUpDown3.Location = new System.Drawing.Point(296, 7);
             this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(57, 20);
+            this.numericUpDown3.Size = new System.Drawing.Size(57, 21);
             this.numericUpDown3.TabIndex = 6;
             this.numericUpDown3.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // Joy_Do_Repeat_Relay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            
             this.ClientSize = new System.Drawing.Size(363, 37);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.numericUpDown3);
@@ -106,6 +104,7 @@
             this.Controls.Add(this.numericUpDown2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDown1);
+            this.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Joy_Do_Repeat_Relay";
             this.Text = "Joy_Do_Repeat_Relay";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();

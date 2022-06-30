@@ -93,29 +93,29 @@ namespace MissionPlanner.Warnings
             ((System.ComponentModel.ISupportInitialize)(this.NUM_warning)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUM_repeattime)).BeginInit();
             this.SuspendLayout();
-            //
+            // 
             // CMB_Source
-            //
+            // 
             this.CMB_Source.FormattingEnabled = true;
             this.CMB_Source.Location = new System.Drawing.Point(131, 3);
             this.CMB_Source.Name = "CMB_Source";
-            this.CMB_Source.Size = new System.Drawing.Size(116, 21);
+            this.CMB_Source.Size = new System.Drawing.Size(116, 23);
             this.CMB_Source.TabIndex = 0;
             this.CMB_Source.Text = "gpsstat";
             this.CMB_Source.SelectedIndexChanged += new System.EventHandler(this.CMB_Source_SelectedIndexChanged);
-            //
+            // 
             // CMB_condition
-            //
+            // 
             this.CMB_condition.FormattingEnabled = true;
             this.CMB_condition.Location = new System.Drawing.Point(253, 3);
             this.CMB_condition.Name = "CMB_condition";
-            this.CMB_condition.Size = new System.Drawing.Size(54, 21);
+            this.CMB_condition.Size = new System.Drawing.Size(54, 23);
             this.CMB_condition.TabIndex = 1;
             this.CMB_condition.Text = "EQ";
             this.CMB_condition.SelectedIndexChanged += new System.EventHandler(this.CMB_condition_SelectedIndexChanged);
-            //
+            // 
             // NUM_warning
-            //
+            // 
             this.NUM_warning.DecimalPlaces = 2;
             this.NUM_warning.Location = new System.Drawing.Point(313, 4);
             this.NUM_warning.Maximum = new decimal(new int[] {
@@ -129,15 +129,15 @@ namespace MissionPlanner.Warnings
             0,
             -2147483648});
             this.NUM_warning.Name = "NUM_warning";
-            this.NUM_warning.Size = new System.Drawing.Size(65, 20);
+            this.NUM_warning.Size = new System.Drawing.Size(65, 21);
             this.NUM_warning.TabIndex = 2;
             this.NUM_warning.ValueChanged += new System.EventHandler(this.NUM_warning_ValueChanged);
-            //
+            // 
             // NUM_repeattime
-            //
+            // 
             this.NUM_repeattime.Location = new System.Drawing.Point(745, 4);
             this.NUM_repeattime.Name = "NUM_repeattime";
-            this.NUM_repeattime.Size = new System.Drawing.Size(39, 20);
+            this.NUM_repeattime.Size = new System.Drawing.Size(39, 21);
             this.NUM_repeattime.TabIndex = 3;
             this.NUM_repeattime.Value = new decimal(new int[] {
             10,
@@ -145,18 +145,18 @@ namespace MissionPlanner.Warnings
             0,
             0});
             this.NUM_repeattime.ValueChanged += new System.EventHandler(this.NUM_repeattime_ValueChanged);
-            //
+            // 
             // TXT_warningtext
-            //
+            // 
             this.TXT_warningtext.Location = new System.Drawing.Point(494, 3);
             this.TXT_warningtext.Name = "TXT_warningtext";
-            this.TXT_warningtext.Size = new System.Drawing.Size(236, 20);
+            this.TXT_warningtext.Size = new System.Drawing.Size(236, 21);
             this.TXT_warningtext.TabIndex = 4;
             this.TXT_warningtext.Text = "WARNING: {name} is {value}";
             this.TXT_warningtext.TextChanged += new System.EventHandler(this.TXT_warningtext_TextChanged);
-            //
+            // 
             // but_addchild
-            //
+            // 
             this.but_addchild.Location = new System.Drawing.Point(791, 4);
             this.but_addchild.Name = "but_addchild";
             this.but_addchild.Size = new System.Drawing.Size(25, 20);
@@ -164,9 +164,9 @@ namespace MissionPlanner.Warnings
             this.but_addchild.Text = "+";
             this.but_addchild.UseVisualStyleBackColor = true;
             this.but_addchild.Click += new System.EventHandler(this.but_addchild_Click);
-            //
+            // 
             // but_remove
-            //
+            // 
             this.but_remove.Location = new System.Drawing.Point(822, 4);
             this.but_remove.Name = "but_remove";
             this.but_remove.Size = new System.Drawing.Size(25, 20);
@@ -174,30 +174,30 @@ namespace MissionPlanner.Warnings
             this.but_remove.Text = "-";
             this.but_remove.UseVisualStyleBackColor = true;
             this.but_remove.Click += new System.EventHandler(this.but_remove_Click);
-            //
-            // cbType
-            //
+            // 
+            // CB_type
+            // 
             this.CB_type.AutoSize = true;
             this.CB_type.Location = new System.Drawing.Point(3, 5);
-            this.CB_type.Name = "cbType";
-            this.CB_type.Size = new System.Drawing.Size(122, 17);
+            this.CB_type.Name = "CB_type";
+            this.CB_type.Size = new System.Drawing.Size(141, 19);
             this.CB_type.TabIndex = 7;
             this.CB_type.Text = "QuickPanel Coloring";
             this.CB_type.UseVisualStyleBackColor = true;
             this.CB_type.CheckedChanged += new System.EventHandler(this.CB_type_CheckedChanged);
-            //
-            // cmbColor
-            //
+            // 
+            // CMB_color
+            // 
             this.CMB_color.FormattingEnabled = true;
             this.CMB_color.Location = new System.Drawing.Point(384, 3);
-            this.CMB_color.Name = "cmbColor";
-            this.CMB_color.Size = new System.Drawing.Size(104, 21);
+            this.CMB_color.Name = "CMB_color";
+            this.CMB_color.Size = new System.Drawing.Size(104, 23);
             this.CMB_color.TabIndex = 8;
             this.CMB_color.Text = "NoColor";
             this.CMB_color.SelectedIndexChanged += new System.EventHandler(this.cmbColor_SelectedIndexChanged);
-            //
+            // 
             // WarningControl
-            //
+            // 
             this.Controls.Add(this.CMB_color);
             this.Controls.Add(this.CB_type);
             this.Controls.Add(this.but_remove);
@@ -207,6 +207,7 @@ namespace MissionPlanner.Warnings
             this.Controls.Add(this.NUM_warning);
             this.Controls.Add(this.CMB_condition);
             this.Controls.Add(this.CMB_Source);
+            this.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "WarningControl";
             this.Size = new System.Drawing.Size(850, 27);
             ((System.ComponentModel.ISupportInitialize)(this.NUM_warning)).EndInit();

@@ -39,7 +39,7 @@
             this.TXT_version.BackColor = System.Drawing.Color.Transparent;
             this.TXT_version.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TXT_version.ForeColor = System.Drawing.Color.White;
-            this.TXT_version.Location = new System.Drawing.Point(433, 341);
+            this.TXT_version.Location = new System.Drawing.Point(358, 129);
             this.TXT_version.Name = "TXT_version";
             this.TXT_version.Size = new System.Drawing.Size(155, 25);
             this.TXT_version.TabIndex = 1;
@@ -49,9 +49,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(127, 43);
+            this.pictureBox1.Location = new System.Drawing.Point(519, 131);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(351, 89);
+            this.pictureBox1.Size = new System.Drawing.Size(58, 23);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -60,18 +60,18 @@
             // 
             // Splash
             // 
-            this.BackgroundImage = global::MissionPlanner.Properties.Resources.splashdark;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(600, 375);
+            this.ClientSize = new System.Drawing.Size(711, 400);
             this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.TXT_version);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(600, 375);
+            this.MaximumSize = new System.Drawing.Size(711, 400);
             this.MinimizeBox = false;
-            this.MinimumSize = new System.Drawing.Size(600, 375);
+            this.MinimumSize = new System.Drawing.Size(711, 400);
             this.Name = "Splash";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mission Planner";

@@ -43,6 +43,8 @@ namespace MissionPlanner.GeoRef
             this.num_hfov = new System.Windows.Forms.NumericUpDown();
             this.num_vfov = new System.Windows.Forms.NumericUpDown();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.num_dropend = new System.Windows.Forms.NumericUpDown();
             this.lbldrpstart = new System.Windows.Forms.Label();
             this.num_dropfromstart = new System.Windows.Forms.NumericUpDown();
             this.chk_usegps2 = new System.Windows.Forms.CheckBox();
@@ -58,17 +60,15 @@ namespace MissionPlanner.GeoRef
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.chk_camusegpsalt = new System.Windows.Forms.CheckBox();
             this.chk_trigusergpsalt = new System.Windows.Forms.CheckBox();
-            this.num_dropend = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
             this.PANEL_TIME_OFFSET.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.num_camerarotation)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_hfov)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_vfov)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num_dropend)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_dropfromstart)).BeginInit();
             this.PANEL_SHUTTER_LAG.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num_dropend)).BeginInit();
             this.SuspendLayout();
             // 
             // openFileDialog1
@@ -264,6 +264,21 @@ namespace MissionPlanner.GeoRef
             resources.ApplyResources(this.panel3, "panel3");
             this.panel3.Name = "panel3";
             // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // num_dropend
+            // 
+            resources.ApplyResources(this.num_dropend, "num_dropend");
+            this.num_dropend.Maximum = new decimal(new int[] {
+            900,
+            0,
+            0,
+            0});
+            this.num_dropend.Name = "num_dropend";
+            // 
             // lbldrpstart
             // 
             resources.ApplyResources(this.lbldrpstart, "lbldrpstart");
@@ -380,21 +395,6 @@ namespace MissionPlanner.GeoRef
             this.chk_trigusergpsalt.Name = "chk_trigusergpsalt";
             this.chk_trigusergpsalt.UseVisualStyleBackColor = true;
             // 
-            // num_dropend
-            // 
-            resources.ApplyResources(this.num_dropend, "num_dropend");
-            this.num_dropend.Maximum = new decimal(new int[] {
-            900,
-            0,
-            0,
-            0});
-            this.num_dropend.Name = "num_dropend";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
             // Georefimage
             // 
             resources.ApplyResources(this, "$this");
@@ -427,11 +427,11 @@ namespace MissionPlanner.GeoRef
             ((System.ComponentModel.ISupportInitialize)(this.num_vfov)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.num_dropend)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.num_dropfromstart)).EndInit();
             this.PANEL_SHUTTER_LAG.ResumeLayout(false);
             this.PANEL_SHUTTER_LAG.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.num_dropend)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

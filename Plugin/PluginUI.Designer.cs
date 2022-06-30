@@ -43,20 +43,20 @@
             // labelWarning
             // 
             this.labelWarning.AutoSize = true;
-            this.labelWarning.Location = new System.Drawing.Point(88, 8);
+            this.labelWarning.Location = new System.Drawing.Point(103, 9);
             this.labelWarning.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelWarning.Name = "labelWarning";
-            this.labelWarning.Size = new System.Drawing.Size(224, 26);
+            this.labelWarning.Size = new System.Drawing.Size(274, 30);
             this.labelWarning.TabIndex = 4;
             this.labelWarning.Text = "Enable/Disable settings changed, till restart \rnot loaded but enabled plugins wil" +
     "l not shown!";
             // 
             // but_errors
             // 
-            this.but_errors.Location = new System.Drawing.Point(316, 8);
+            this.but_errors.Location = new System.Drawing.Point(369, 9);
             this.but_errors.Margin = new System.Windows.Forms.Padding(2);
             this.but_errors.Name = "but_errors";
-            this.but_errors.Size = new System.Drawing.Size(73, 31);
+            this.but_errors.Size = new System.Drawing.Size(85, 36);
             this.but_errors.TabIndex = 5;
             this.but_errors.Text = "Show Errors";
             this.but_errors.UseVisualStyleBackColor = true;
@@ -64,10 +64,10 @@
             // 
             // bSave
             // 
-            this.bSave.Location = new System.Drawing.Point(11, 8);
+            this.bSave.Location = new System.Drawing.Point(13, 9);
             this.bSave.Margin = new System.Windows.Forms.Padding(2);
             this.bSave.Name = "bSave";
-            this.bSave.Size = new System.Drawing.Size(73, 31);
+            this.bSave.Size = new System.Drawing.Size(85, 36);
             this.bSave.TabIndex = 1;
             this.bSave.Text = "Save && Close";
             this.bSave.UseVisualStyleBackColor = true;
@@ -89,12 +89,12 @@
             this.pluginVersion,
             this.pluginDll,
             this.pluginEnabled});
-            this.dgvPlugins.Location = new System.Drawing.Point(9, 51);
+            this.dgvPlugins.Location = new System.Drawing.Point(10, 59);
             this.dgvPlugins.Margin = new System.Windows.Forms.Padding(2);
             this.dgvPlugins.Name = "dgvPlugins";
             this.dgvPlugins.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
             this.dgvPlugins.RowTemplate.Height = 24;
-            this.dgvPlugins.Size = new System.Drawing.Size(655, 303);
+            this.dgvPlugins.Size = new System.Drawing.Size(764, 350);
             this.dgvPlugins.TabIndex = 0;
             this.dgvPlugins.RowHeadersWidthChanged += new System.EventHandler(this.dgvPlugins_RowHeadersWidthChanged);
             this.dgvPlugins.SelectionChanged += new System.EventHandler(this.dgvPlugins_SelectionChanged);
@@ -106,7 +106,7 @@
             this.pluginName.MinimumWidth = 6;
             this.pluginName.Name = "pluginName";
             this.pluginName.ReadOnly = true;
-            this.pluginName.Width = 92;
+            this.pluginName.Width = 106;
             // 
             // pluginAuthor
             // 
@@ -115,7 +115,7 @@
             this.pluginAuthor.MinimumWidth = 6;
             this.pluginAuthor.Name = "pluginAuthor";
             this.pluginAuthor.ReadOnly = true;
-            this.pluginAuthor.Width = 63;
+            this.pluginAuthor.Width = 71;
             // 
             // pluginVersion
             // 
@@ -124,7 +124,7 @@
             this.pluginVersion.MinimumWidth = 6;
             this.pluginVersion.Name = "pluginVersion";
             this.pluginVersion.ReadOnly = true;
-            this.pluginVersion.Width = 67;
+            this.pluginVersion.Width = 74;
             // 
             // pluginDll
             // 
@@ -133,7 +133,7 @@
             this.pluginDll.MinimumWidth = 6;
             this.pluginDll.Name = "pluginDll";
             this.pluginDll.ReadOnly = true;
-            this.pluginDll.Width = 76;
+            this.pluginDll.Width = 87;
             // 
             // pluginEnabled
             // 
@@ -141,17 +141,18 @@
             this.pluginEnabled.HeaderText = "Enabled";
             this.pluginEnabled.MinimumWidth = 6;
             this.pluginEnabled.Name = "pluginEnabled";
-            this.pluginEnabled.Width = 52;
+            this.pluginEnabled.Width = 60;
             // 
             // PluginUI
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 373);
+            this.ClientSize = new System.Drawing.Size(785, 430);
             this.Controls.Add(this.but_errors);
             this.Controls.Add(this.labelWarning);
             this.Controls.Add(this.bSave);
             this.Controls.Add(this.dgvPlugins);
+            this.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "PluginUI";

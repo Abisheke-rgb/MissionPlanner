@@ -66,6 +66,7 @@
             this.TXPOWER = new System.Windows.Forms.ComboBox();
             this.ECC = new System.Windows.Forms.CheckBox();
             this.OPPRESEND = new System.Windows.Forms.CheckBox();
+            this.BUT_SetPPMFailSafe = new MissionPlanner.Controls.MyButton();
             this.RTI = new System.Windows.Forms.TextBox();
             this.ATI = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -161,7 +162,6 @@
             this.RTI2 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.BUT_SetPPMFailSafe = new MissionPlanner.Controls.MyButton();
             this.BUT_loadcustom = new MissionPlanner.Controls.MyButton();
             this.BUT_resettodefault = new MissionPlanner.Controls.MyButton();
             this.BUT_savesettings = new MissionPlanner.Controls.MyButton();
@@ -741,6 +741,14 @@
             resources.ApplyResources(this.OPPRESEND, "OPPRESEND");
             this.OPPRESEND.Name = "OPPRESEND";
             this.toolTip1.SetToolTip(this.OPPRESEND, resources.GetString("OPPRESEND.ToolTip"));
+            // 
+            // BUT_SetPPMFailSafe
+            // 
+            resources.ApplyResources(this.BUT_SetPPMFailSafe, "BUT_SetPPMFailSafe");
+            this.BUT_SetPPMFailSafe.Name = "BUT_SetPPMFailSafe";
+            this.toolTip1.SetToolTip(this.BUT_SetPPMFailSafe, resources.GetString("BUT_SetPPMFailSafe.ToolTip"));
+            this.BUT_SetPPMFailSafe.UseVisualStyleBackColor = true;
+            this.BUT_SetPPMFailSafe.Click += new System.EventHandler(this.BUT_SetPPMFailSafe_Click);
             // 
             // RTI
             // 
@@ -1393,14 +1401,6 @@
             // 
             resources.ApplyResources(this.label10, "label10");
             this.label10.Name = "label10";
-            // 
-            // BUT_SetPPMFailSafe
-            // 
-            resources.ApplyResources(this.BUT_SetPPMFailSafe, "BUT_SetPPMFailSafe");
-            this.BUT_SetPPMFailSafe.Name = "BUT_SetPPMFailSafe";
-            this.toolTip1.SetToolTip(this.BUT_SetPPMFailSafe, resources.GetString("BUT_SetPPMFailSafe.ToolTip"));
-            this.BUT_SetPPMFailSafe.UseVisualStyleBackColor = true;
-            this.BUT_SetPPMFailSafe.Click += new System.EventHandler(this.BUT_SetPPMFailSafe_Click);
             // 
             // BUT_loadcustom
             // 

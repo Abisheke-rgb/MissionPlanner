@@ -50,7 +50,7 @@
             0,
             0});
             this.numericUpDownpwmmin.Name = "numericUpDownpwmmin";
-            this.numericUpDownpwmmin.Size = new System.Drawing.Size(47, 20);
+            this.numericUpDownpwmmin.Size = new System.Drawing.Size(47, 21);
             this.numericUpDownpwmmin.TabIndex = 0;
             this.numericUpDownpwmmin.Value = new decimal(new int[] {
             800,
@@ -64,7 +64,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.Size = new System.Drawing.Size(45, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "PWM 1";
             // 
@@ -73,7 +73,7 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(130, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(43, 13);
+            this.label2.Size = new System.Drawing.Size(47, 15);
             this.label2.TabIndex = 2;
             this.label2.Text = "PWM 2";
             // 
@@ -91,7 +91,7 @@
             0,
             0});
             this.numericUpDownpwmmax.Name = "numericUpDownpwmmax";
-            this.numericUpDownpwmmax.Size = new System.Drawing.Size(78, 20);
+            this.numericUpDownpwmmax.Size = new System.Drawing.Size(78, 21);
             this.numericUpDownpwmmax.TabIndex = 3;
             this.numericUpDownpwmmax.Value = new decimal(new int[] {
             1500,
@@ -102,13 +102,12 @@
             // 
             // Joy_Button_axis
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            
             this.ClientSize = new System.Drawing.Size(298, 36);
             this.Controls.Add(this.numericUpDownpwmmax);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.numericUpDownpwmmin);
+            this.Font = new System.Drawing.Font("Montserrat Medium", 8.249999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "Joy_Button_axis";
             this.Text = "Joy_Button_axis";
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownpwmmin)).EndInit();
