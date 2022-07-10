@@ -314,6 +314,7 @@ namespace MissionPlanner.GCSViews
             this.BUT_read.BGGradBot = System.Drawing.Color.Red;
             this.BUT_read.BGGradTop = System.Drawing.Color.Red;
             resources.ApplyResources(this.BUT_read, "BUT_read");
+            this.BUT_read.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BUT_read.Name = "BUT_read";
             this.BUT_read.Outline = System.Drawing.Color.White;
             this.BUT_read.TextColor = System.Drawing.Color.Black;

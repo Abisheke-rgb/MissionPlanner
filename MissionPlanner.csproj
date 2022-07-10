@@ -279,9 +279,6 @@
     <EmbeddedResource Include="GCSViews\FlightPlanner.uk.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.uk.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\InitialSetup.uk.resx">
       <DependentUpon>InitialSetup.cs</DependentUpon>
     </EmbeddedResource>
@@ -1328,9 +1325,6 @@
     <Compile Include="GCSViews\FlightPlanner.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="GCSViews\Help.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
     <Compile Include="GCSViews\InitialSetup.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -1674,9 +1668,6 @@
     </Compile>
     <Compile Include="GCSViews\FlightPlanner.Designer.cs">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GCSViews\Help.Designer.cs">
-      <DependentUpon>Help.cs</DependentUpon>
     </Compile>
     <Compile Include="GCSViews\InitialSetup.Designer.cs">
       <DependentUpon>InitialSetup.cs</DependentUpon>
@@ -2658,60 +2649,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\FlightPlanner.zh-TW.resx">
       <DependentUpon>FlightPlanner.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.ar.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.az-Latn-AZ.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.de-DE.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.es-ES.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.fr.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.id-ID.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.it-IT.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.ja-JP.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.ko-KR.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.pl.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.pt.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.ru-KZ.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.ru-RU.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.tr.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.zh-Hans.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.zh-Hant.resx">
-      <DependentUpon>Help.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GCSViews\Help.zh-TW.resx">
-      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GCSViews\InitialSetup.resx">
       <DependentUpon>InitialSetup.cs</DependentUpon>

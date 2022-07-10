@@ -248,8 +248,8 @@ namespace MissionPlanner.GCSViews
             this.Controls.Add(this.backstageViewPagetradheli);
             this.Controls.Add(this.backstageViewPagewizard);
             this.Controls.Add(this.backstageView);
-            this.Name = "InitialSetup";
             resources.ApplyResources(this, "$this");
+            this.Name = "InitialSetup";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.HardwareConfig_FormClosing);
             this.Load += new System.EventHandler(this.HardwareConfig_Load);
             this.ResumeLayout(false);

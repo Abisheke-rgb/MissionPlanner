@@ -37,9 +37,9 @@
             // TXT_version
             // 
             this.TXT_version.BackColor = System.Drawing.Color.Transparent;
-            this.TXT_version.Font = new System.Drawing.Font("Montserrat", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TXT_version.Font = new System.Drawing.Font("Montserrat SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TXT_version.ForeColor = System.Drawing.Color.White;
-            this.TXT_version.Location = new System.Drawing.Point(358, 129);
+            this.TXT_version.Location = new System.Drawing.Point(516, 118);
             this.TXT_version.Name = "TXT_version";
             this.TXT_version.Size = new System.Drawing.Size(155, 25);
             this.TXT_version.TabIndex = 1;
@@ -49,7 +49,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(519, 131);
+            this.pictureBox1.Location = new System.Drawing.Point(613, 146);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(58, 23);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;

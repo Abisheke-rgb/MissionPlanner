@@ -3165,8 +3165,6 @@ namespace MissionPlanner
             MyView.AddScreen(new MainSwitcher.Screen("HWConfig", typeof(GCSViews.InitialSetup), false));
             MyView.AddScreen(new MainSwitcher.Screen("SWConfig", typeof(GCSViews.SoftwareConfig), false));
             MyView.AddScreen(new MainSwitcher.Screen("Simulation", Simulation, true));
-            MyView.AddScreen(new MainSwitcher.Screen("Help", typeof(GCSViews.Help), false));
-
             try
             {
                 if (Control.ModifierKeys == Keys.Shift)
